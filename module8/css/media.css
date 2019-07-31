@@ -13,7 +13,7 @@ justify-content: space-between;
 padding: 0;
 }
 .title-holiday { 
-margin: 0 0 45px;
+margin: 0 205px 45px;
 }
 .holiday { 
 min-width: 748px;
@@ -65,50 +65,60 @@ order: -1;
 }
 }
 @media (min-width: 960px) { 
-  .wrapper { 
-    min-width: 940px;
-    max-width: none;
-  }
-  .header { 
-    min-width: 940px;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    padding-top: 55px;
-  }
-  .nav { 
-    padding: 0;
-  }
-  .partners { 
-    min-width: 940px;
-    position: relative;
-  }
-  .partners-list { 
-    display: flex;
-  }
-  .partners-list-item { 
-    width: 23.61%;
-    margin-right: 18px;
-  }
-  .partners-list-item:last-child { 
-    margin-right: 0;
-  }
-  .social-link { 
-    position: absolute;
-    top: 81px;
-    left: 141px;
-  }
-  .item1 { 
-    order: -3;
-  }
-  .item3 { 
-    order: -2;
-  }
-  .partners-button { 
-    margin-bottom: 75px;
-    padding: 15px 35px;
-  }
-  .form { 
-    text-align: center;
-  }
+.container { 
+min-width: 940px;
+max-width: none;
+}
+.promo {
+  background-image: url(../images/Vector\ Smart\ Object1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: black;
+}
+.header { 
+min-width: 940px;
+display: flex;
+flex-direction: row-reverse;
+justify-content: space-between;
+padding-top: 55px;
+}
+.title-holiday { 
+margin: 0 205 45px;
+}
+.nav { 
+padding: 0;
+}
+.partners { 
+min-width: 940px;
+position: relative;
+}
+.partners-list { 
+display: flex;
+}
+.partners-list-item { 
+width: 23.61%;
+margin-right: 18px;
+}
+.partners-list-item:last-child { 
+margin-right: 0;
+}
+.social-link { 
+position: absolute;
+top: 81px;
+left: 141px;
+}
+.item1 { 
+order: -3;
+}
+.item3 { 
+order: -2;
+}
+.partners-button { 
+margin-bottom: 75px;
+padding: 15px 35px;
+}
+.form { 
+text-align: center;
+}
 }

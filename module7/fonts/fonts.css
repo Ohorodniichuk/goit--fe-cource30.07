@@ -1,4 +1,4 @@
-
+<<<<<<< HEAD
 @font-face {
 	font-family: "Montserrat";
 	src: url(Montserrat/montserrat-v13-latin-regular.woff2) format("woff2"),
@@ -106,3 +106,4 @@
        url('../fonts/noticia-text-v8-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
        url('../fonts/noticia-text-v8-latin-regular.svg#NoticiaText') format('svg'); /* Legacy iOS */
 }
+>>>>>>> aa228d998cd75383863e9d60471ca4453d7d5d5b
